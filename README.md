@@ -30,14 +30,16 @@ ClinMulti-DLBCL is a cutting-edge deep learning framework that integrates multi-
    cd ClinMulti-DLBCL
    ```
 ### ✔ Usage
-Activate the created conda environment
+Step 1: Activate the project-specific conda environment
    ```bash
     source activate ClinMulti-DLBCL_env
    ```
+Step 2: Navigate to the data directory and run the data splitting script
    ```bash
     cd ./data/propstate_paper
     python split_data.py
    ```
+Step 3: Navigate to the training directory and launch the main training script
    ```bash
     cd ./train
     python run_me.py
