@@ -25,8 +25,29 @@ ClinMulti-DLBCL is a cutting-edge deep learning framework that integrates multi-
 
 ### ✔ Installation
 
-1. **Clone the repository**
    ```bash
    git clone https://github.com/yourname/ClinMulti-DLBCL.git
    cd ClinMulti-DLBCL
    ```
+### ✔ Usage
+Activate the created conda environment
+   ```bash
+    source activate ClinMulti-DLBCL_env
+   ```
+   ```bash
+    cd ./data/propstate_paper
+    python split_data.py
+   ```
+   ```bash
+    cd ./train
+    python run_me.py
+   ```
+###  ✔ Developor
+
+Xiaolu Xu (lu.xu@lnnu.edu.cn)
+
+Yulong Li (liyulong20000810@163.com)
+
+School of Computer and Artificial Intelligence 
+
+Liaoning Normal University
