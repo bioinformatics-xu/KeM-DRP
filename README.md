@@ -32,7 +32,7 @@ KeM-DRP is a cutting-edge deep learning framework that integrates multi-modal cl
 ### ✔ Usage
 Step 1: Activate the project-specific conda environment
    ```bash
-    source activateKeM-DRP_env
+    source activate KeM-DRP_env
    ```
 Step 2: Navigate to the data directory and run the data splitting script
    ```bash
